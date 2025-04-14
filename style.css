@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w50{
+    width: 50%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBeteween{
+    justify-content: space-between;
+}
+
+.alingnCenter{
+    align-items: center;
+}
+
+h1,h2,h3{
+    font-family: "Alice", serif;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.bgRed{
+    background-color: red;
+}
+
+.puceNone{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+
+}
+
+.black:hover{
+    color: #4d3e9a;
+}
+/* header*/
+header{
+    padding: 20px 0;
+    background-color: rgba(218, 218, 234, 0.267);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(6px);
+}
+
+header>nav {
+    margin: auto;
+}
+
+.logo{
+    width: 100px;
+}
+/* Hero*/
+.sectionHero{
+    height: 100vh;
+}
+.bgHero{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.divHero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 9%;
+}
+
+.divHero>p{
+    font-size: 25px;
+}

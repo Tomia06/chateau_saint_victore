@@ -11,7 +11,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/* taille de box*/
 .w25{
     width: 25%;
 }
@@ -19,6 +19,22 @@
 .w50{
     width: 50%;
 }
+
+.w100{
+    width: 100%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w70{
+    width: 70%;
+
+}
+/* taille de box */
+
+/* flex */
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +47,7 @@
 .alingnCenter{
     align-items: center;
 }
+/* flex*/
 
 h1,h2,h3{
     font-family: "Alice", serif;
@@ -48,7 +65,9 @@ p{
 .bgRed{
     background-color: red;
 }
-
+.bgBlue{
+    background-color: blue;
+}
 .puceNone{
     list-style: none;
 }
@@ -78,6 +97,7 @@ header{
     left: 0;
     width: 100%;
     backdrop-filter: blur(6px);
+    z-index: 200px;
 }
 
 header>nav {
@@ -87,9 +107,12 @@ header>nav {
 .logo{
     width: 100px;
 }
+/* header*/
+
 /* Hero*/
 .sectionHero{
     height: 100vh;
+    position: relative;
 }
 .bgHero{
     width: 100%;
@@ -107,4 +130,22 @@ header>nav {
 
 .divHero>p{
     font-size: 25px;
+}
+
+.carteViolette {
+    background-color: rgba(137, 43, 226, 0.404);
+    display: block;
+    width: 30%;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+}
+.sectionSevices{
+    position: relative;
+    top: -50px;
+}
+
+.tailleImg {
+    width: 300px;
 }
